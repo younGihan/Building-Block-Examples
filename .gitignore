@@ -36,3 +36,4 @@ terraform.rc
 # exclude specific folders
 aws-marketplace-building-block/
 test
+.DS_Store
