@@ -8,14 +8,14 @@ variable "list_example" {
   description = "Ein Beispiel für eine Liste von Zahlen."
 }
 
-variable "list_of_objects_example" {
-  type = list(object({
-    name = string
-    age  = number
-    city = string
-  }))
-  description = "Ein Beispiel für eine Liste von Objekten mit verschiedenen Attributen."
-}
+#variable "list_of_objects_example" {
+#  type = list(object({
+#    name = string
+#    age  = number
+#    city = string
+#  }))
+#  description = "Ein Beispiel für eine Liste von Objekten mit verschiedenen Attributen."
+#}
 
 variable "multi_select_example" {
   type = list(string)
