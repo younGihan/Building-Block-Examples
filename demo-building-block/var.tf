@@ -1,7 +1,7 @@
-variable "map_example" {
-  type = map(string)
-  description = "Ein Beispiel für eine Map (Schlüssel-Wert-Paare)."
-}
+#variable "map_example" {
+#  type = map(string)
+#  description = "Ein Beispiel für eine Map (Schlüssel-Wert-Paare)."
+#}
 
 variable "list_example" {
   type = list(number)
