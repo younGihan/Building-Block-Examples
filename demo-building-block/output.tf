@@ -1,7 +1,7 @@
-output "rendered_map" {
-  value       = null_resource.example.triggers.map_data
-  description = "Die als JSON kodierte Map."
-}
+#output "rendered_map" {
+#  value       = null_resource.example.triggers.map_data
+#  description = "Die als JSON kodierte Map."
+#}
 
 output "rendered_list" {
   value       = null_resource.example.triggers.list_data
