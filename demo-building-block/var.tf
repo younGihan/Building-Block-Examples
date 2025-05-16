@@ -16,3 +16,8 @@ variable "list_of_objects_example" {
   }))
   description = "Ein Beispiel für eine Liste von Objekten mit verschiedenen Attributen."
 }
+
+variable "multi_select_example" {
+  type = list(string)
+  description = "Ein Beispiel für eine Multi-Select von Objekten mit verschiedenen Attributen."
+}
