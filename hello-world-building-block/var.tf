@@ -3,7 +3,7 @@ variable "example_string" {
   description = "Example String"
 }
 
-variable "buildingBlockRun" {
+variable "bb-run" {
   type = string
   description = "building block run ID"
 }

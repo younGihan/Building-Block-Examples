@@ -4,6 +4,6 @@ output "output_example_string" {
 }
 
 output "output_buildingBlockRun" {
-  value       = var.buildingBlockRun
+  value       = var.bb-run
   description = "Output: example string"
 }
