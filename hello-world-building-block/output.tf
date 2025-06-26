@@ -4,6 +4,6 @@ output "output_example_string" {
 }
 
 output "output_buildingBlockRun" {
-  value       = var.bb-run
+  value       = var.meshstack_building_block_run_id
   description = "Output: example string"
 }
