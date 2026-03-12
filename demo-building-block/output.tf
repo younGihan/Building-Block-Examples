@@ -1,14 +1,3 @@
-#output "rendered_map" {
-#  value       = null_resource.example.triggers.map_data
-#  description = "Die als JSON kodierte Map."
-#}
-
-output "rendered_list" {
-  value       = null_resource.example.triggers.list_data
-  description = "Die als JSON kodierte Liste."
+output "meshstack_building_block_run_id" {
+  value = var.meshstack_building_block_run_id
 }
-
-#output "rendered_list_of_objects" {
-#  value       = null_resource.example.triggers.list_object_data
-#  description = "Die als JSON kodierte Liste von Objekten."
-#}
