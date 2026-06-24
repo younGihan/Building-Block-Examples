@@ -7,3 +7,7 @@ variable "name" {
   type = string
   default = "default_name"
 }
+
+variable "pass" {
+  type = string
+}
