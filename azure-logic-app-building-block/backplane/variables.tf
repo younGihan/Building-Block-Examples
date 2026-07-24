@@ -25,7 +25,7 @@ variable "office365_connection_name" {
 variable "email_connector" {
   description = "Which managed connector the workflow uses to send email: \"office365\" (Office 365 Outlook) or \"gmail\"."
   type        = string
-  default     = "gmail"
+  default     = "office365"
 
   validation {
     condition     = contains(["office365", "gmail"], var.email_connector)
